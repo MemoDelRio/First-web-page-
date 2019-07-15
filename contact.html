@@ -5,28 +5,39 @@
       <style>
         .td {
           background: yellow
-          style=margin: 0 auto
-          width: 230 
-          cellspacing: 0 
-          cellpadding: 5 
-          border: 1
-          bgcolor: yellow
         }
 
         h1 {
           color: red;
+          font-size:50px;
         }
 
-        div.a {
-          text-align: center; 
+        div.a { 
+          text-align: center;
         }
 
         a {
           color: black;
         }
 
-        p {
-          margin-top: 50px; margin-left: 50px; margin-right: 50px;
+        .tabla {
+          margin: 0 auto;
+          font-size: 50px;
+          width: 0px;
+          background: yellow;
+        }
+
+        .bodyy{
+          font-size: 50px;
+        }
+        
+        .body2{
+          font-size: 40px;
+        }
+        
+        .foto {
+          width: 50px;
+          height: 50px;
         }
       </style>
   </head>
@@ -35,71 +46,63 @@
 
   <body> 
     <header>
-      <div class="a">
+      <div class="a"> 
         <h1>
-          <font face="arial">¿Problemas o cambios?</font>
+          ¿Problemas o cambios?
         </h1>   
-      </div>
+      </div>       
     </header>
       
     <div class="a">
-      <font face="arial"> 
-        <font size=4>
-          Habla directamente con el establecimiento
-        </font>
-      </font>
+      <p class="bodyy">
+        Habla directamente con el establecimiento
+      </p>
     </div>
       
-    <div class="a">
-      <font face="arial">
-        <font size=5>
-          <img src="images/tel.png">91052922
-        </font>
-      </font>  
+    <div class="a body2">
+      <img src="images/tel.png" class="foto">
+        91052922
     </div>
-        
+    
     <div class="a">
-      <table style="margin: 0 auto;" width="230" cellspacing="0" cellpadding="5" border="1" bgcolor="yellow"> 
-        <td style="td">
-          <font color="black" face="arial" size=3> 
+      <table class="tabla"> 
+        <tr>
+          <td style="td">
             <a href="http://google.com">
               Rastrea tu pedido 
             </a>                 
-          </font>   
-        </td> 
+          </td>  
+        </tr>
       </table>
     </div>
+
+    <pre>
+    </pre>
       
     <div class="a">
-      <table style="margin: 0 auto;" width="250" cellspacing="0" cellpadding="5" border="1" bgcolor="yellow"> 
-        <td style="td">
-          <font color="black" face="arial" size=3> 
+      <table class="tabla">    
+        <tr>
+          <td style="td">
             <a href="http://google.com"> 
               ¿Tienes dudas con tu pedido? 
             </a>
-          </font>   
-        </td>              
+          </td>     
+        </tr>         
       </table>     
     </div>           
                           
-    <font face="arial">
-      <font size=4>
-        Compartir mi pedido:
-      </font>
-    </font>
+    <p class="a body2"> 
+        Compartir mi pedido:</p>
           
     <section> 
       <a href="http://facebook.com">
-        <img src="images/facebook.png">
+        <img src="images/facebook.png" class="foto">
       </a> 
       <a href="http://twitter.com">
-        <img src="images/twitter.png">
+        <img src="images/twitter.png" class="foto">
       </a>
     </section>
 
   </body> 
 
 </html>
-  
-
-#contact
